@@ -1,31 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style><%@include file="/resource/css/style.css"%></style>
     <title>Buykey</title>
-    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <header class="header_area">
-        <div class="main_menu">
-            <div class="menu_left">
-                <a href="/index.html" style="color: black; text-decoration:none">UpgradeShop.me</a>
-            </div>
-            <div class="menu_right">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="upgrade.html">Nâng cấp</a></li>
-                    <li><a href="administration.html">Admin</a></li>
-                    <li><a href="https://www.facebook.com/messages/t/Netflix-Spotify-%C6%AFu-%C4%90%C3%A3i-109531930663427/">Liên lạc</a></li>
-                    <li><a href="login.html">Đăng nhập</a></li>
-                    <li><a href="signup.html">Đăng kí</a></li>
-                  </ul>
-            <a class="buy_header" href="buy.html">MUA NGAY</a>    
-            </div>
-            
-        </div>
-    </header>
+    <jsp:include page ="header.jsp"></jsp:include>
     <section class="section-padding bg-gray" id="buy"> 
         <div class="container_buy">
           <div class="section-intro text-center pb-98px">
@@ -54,7 +39,7 @@
                   </li>
                 </ul>
                 <div class="priceTable-footer">
-                  <a class="button" href="https://www.facebook.com/messages/t/9903" style= "text-decoration:none" target="_blank">MUA NGAY</a>
+                  <a class="button" href="https://shoppy.gg/product/VvNndiS" style= "text-decoration:none" target="_blank">MUA NGAY</a>
                 </div>
               </div>
             </div>
@@ -78,7 +63,7 @@
                   </li>
                 </ul>
                 <div class="priceTable-footer">
-                  <a class="button" href="https://www.facebook.com/messages/t/9903" style= "text-decoration:none" target="_blank">MUA NGAY</a>
+                  <a class="button" href="https://shoppy.gg/products/xbD8KQM" style= "text-decoration:none" target="_blank">MUA NGAY</a>
                 </div>
               </div>
             </div>
@@ -102,7 +87,7 @@
                   </li>
                 </ul>
                 <div class="priceTable-footer">
-                  <a class="button" href="https://www.facebook.com/messages/t/9903" style= "text-decoration:none" target="_blank">MUA NGAY</a>
+                  <a class="button" href="https://shoppy.gg/products/iSGUz4M" style= "text-decoration:none" target="_blank">MUA NGAY</a>
                 </div>
               </div>
             </div>
@@ -111,5 +96,6 @@
           
         
       </section>
+      
 </body>
 </html>

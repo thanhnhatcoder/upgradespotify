@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6 , p{
 }
 .header_area .menu_left {
     color: black ;
+    height: 55px;
     font-size: 30px ;
     font-family: Arial, Helvetica, sans-serif;
     float: left;
@@ -66,7 +67,7 @@ float : right ;
             color: white;
 }
 
-.banner{
+.banner {
     color: white;
     clear: right;
     text-align: center;
@@ -74,7 +75,7 @@ float : right ;
     padding-bottom: 230px ;
     padding-left: 0px;
     padding-right: 0px;
-    background-image: url("banner.png");
+    background: url(../resource/images/banner.png);        
 }
 .banner h2 {
 font-size: 42px;

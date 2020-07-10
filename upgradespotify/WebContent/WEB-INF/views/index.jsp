@@ -1,37 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style><%@include file="/resource/css/style.css"%></style>
     <link rel="stylesheet" href="style.css">
     <title>Upgradeshop</title>
 </head>
 <body>
-    <header class="header_area">
-        <div class="main_menu">
-            <div class="menu_left">
-                <a href="/index.html" style="color: black; text-decoration:none">UpgradeShop.me</a>
-            </div>
-            <div class="menu_right">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="upgrade.html">Nâng cấp</a></li>
-                    <li><a href="administration.html">Admin</a></li>
-                    <li><a href="https://www.facebook.com/messages/t/Netflix-Spotify-%C6%AFu-%C4%90%C3%A3i-109531930663427/">Liên lạc</a></li>
-                    
-                    <li><a href="login.html">Đăng nhập</a></li>
-                    <li><a href="signup.html">Đăng kí</a></li>
-                  </ul>
-            <a class="buy_header" href="buy.html">MUA NGAY</a>    
-            </div>
-            
-        </div>
-    </header>
+<jsp:include page ="header.jsp"></jsp:include>
     <section class ="banner">
         <div class="container_text_">
             <p>Bạn đang muốn nâng cấp tài khoản spotify ?</p>
             <h2>HÃY DÙNG DỊCH VỤ NÂNG CẤP CỦA CHÚNG TÔI</h2>
-            <a class="buykey" href="/buy.html" style="text-decoration:none">MUA NGAY</a>
+            <a class="buykey" href ="${pageContext.request.contextPath}/buy" style="text-decoration:none">MUA NGAY</a>
         </div>
     </section>
     <section class="section_margin">
@@ -65,7 +50,7 @@
             </div>
             <div class="bottom">
                 <a class="buttonindex mr-3 mb-2" href="#faq" style="text-decoration:none">TÌM HIỂU THÊM</a>
-                <a class="buttonindex mb-2" href="buy.html" style="text-decoration:none">MUA NGAY</a>
+                <a class="buttonindex mb-2" href ="${pageContext.request.contextPath}/buy" style="text-decoration:none">MUA NGAY</a>
             </div>
         </div>
     </section>
@@ -124,7 +109,7 @@
                     <li>
                         <p style="color:#3D1B82;"><b>Bạn có một câu hỏi nhưng nó không được đề cập ở đây ? </b></p>
                       <p>
-                          Hãy liên hệ với chúng tôi bất cứ lúc nào! Bạn có thể nhắn tin cho chúng tôi. <a class="nav-link" href="https://www.facebook.com/messages/t/9903" target="_blank">Facebook </a>
+                          Hãy liên hệ với chúng tôi bất cứ lúc nào! Bạn có thể nhắn tin cho chúng tôi. <a class="nav-link" href="https://www.facebook.com/messages/t/thanhnhat9903" target="_blank">Facebook </a>
                         </p>
                     
                     </li>
